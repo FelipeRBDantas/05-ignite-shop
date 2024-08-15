@@ -1,19 +1,19 @@
 import { styled } from "../styles"
 
 const Button = styled('button', {
-  backgroundColor: '$rocketseat',
+  backgroundColor: '$green500',
   borderRadius: 4,
   border: 0,
-  padding: '12px 16px',
+  padding: '4px 8px',
   color: '#fff',
   cursor: 'pointer',
 
-  '&:hover': {
-    filter: 'brightness(0.8)',
-  },
-
   span: {
     fontWeight: 'bold',
+  },
+
+  '&:hover': {
+    filter: 'brightness(0.8)',
   },
 })
 
