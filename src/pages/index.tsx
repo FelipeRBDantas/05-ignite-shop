@@ -35,10 +35,6 @@ export default function Home() {
           <strong>Camiseta X</strong>
 
           <span>R$ 79,90</span>
-          
-          <Button>
-            <span>Comprar agora</span>
-          </Button>
         </footer>
       </Product>
 
